@@ -9,10 +9,14 @@ body {
 }
 
 .hotbar {
-    display: flex;
+    display:flex;
+    align-items: center;
     justify-content: space-evenly;
     background-color: #8dd7bf;
-    padding: -10000000px;
+    color:black;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
 
 }
 
@@ -21,7 +25,20 @@ body {
     text-align: center;
 }
 
+.hotbar a {
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+}
+
+
 .hotbar p:hover {
+    color: white;
+    transition: .3s;
+    font-weight: 1000;
+}
+
+.hotbar a:hover {
     color: white;
     transition: .3s;
     font-weight: 1000;
